@@ -43,10 +43,10 @@ if (isset($_POST['name'])) {
 }
 
 //дата
-if (isset($_POST['date'])) {
-    $date = $_POST['date'];
+if (isset($_POST['age'])) {
+    $age = $_POST['age'];
 } else {
-    $date = '';
+    $age = '';
 }
 
 //пол
@@ -132,5 +132,35 @@ if (isset($_POST['run'])) {
 
 // Формулы
 
+
+//симулируем данные с таблицы
+$handfoldNormal = 30;
+$longJumpNormal = 185;
+$raiseWaistNormal = 23;
+$keepBodyNormal = 32;
+$bendNormal = 10.3;
+$runNormal = 278;
+
+
+$handfoldRate = ($handfold - $handfoldNormal) / $handfoldNormal;
+$longJumpRate = ($longJump - $longJumpNormal) / $longJumpNormal;
+$raiseWaistRate = ($raiseWaist - $raiseWaistNormal) / $raiseWaistNormal;
+$keepBodyRate = ($keepBody - $keepBodyNormal) / $keepBodyNormal;
+$bendRate = ($bendRate - $bendNormal) / $bendNormal;
+$runRate = ($run - $runNormal) / $runNormal;
+
+function ratingInteger($rate) {
+    if ($rate >= 0.6) {
+        return 5;
+    } elseif ($rate >= 0.2) {
+        return 4;
+    } elseif ($rate >= -0.2) {
+        return 3;
+    } elseif ($rate >= -0.6) {
+        return 2;
+    } else {
+        return 1;
+    }
+}
 
 
