@@ -26,63 +26,67 @@
                 <h2>Заполните форму</h2>
 
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Страна</label>
                     <input type="text" name="input1" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Регион</label>
                     <input type="text" name="input2" required>
                 </div>
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Город</label>
                     <input type="text" name="input1" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Фамилия</label>
                     <input type="text" name="input2" required>
                 </div>
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Имя</label>
                     <input type="text" name="input1" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Возраст</label>
                     <input type="text" name="input2" required>
                 </div>
+
                 <div class="input-field">
-                    <label for="">input1</label>
+
+                    <label for="">Пол (М/Ж)</label>
+                    <div class="radio-group">
+                    <label for="chb1">М<input id="chb1" type="radio" value="1" name="radio"></label>
+                    <label for="chb2">Ж<input id="chb2" type="radio" value="2" name="radio"></label>
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Профессия</label>
                     <input type="text" name="input1" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Рост (см)</label>
                     <input type="text" name="input2" required>
                 </div>
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Вес (кг)</label>
                     <input type="text" name="input1" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">input1</label>
+                    <label for="">Окружность грудной клетки (см)</label>
                     <input type="text" name="input2" required>
                 </div>
 
                 <div class="input-field">
-                    <div>Выбирите радио:</div>
-                    <label for="chb1">чекбокс1<input id="chb1" type="radio" value="1" name="radio" checked></label>
-                    <label for="chb2">чекбокс2<input id="chb2" type="radio" value="2" name="radio"></label>
-                    <label for="chb3">чекбокс3<input id="chb3" type="radio" value="3" name="radio"></label>
+                    <label for="">Окружность талии (см)</label>
+                    <input type="text" name="input2" required>
                 </div>
 
-                <div class="input-field">
-                    <label for="send-to-email">Отправить на почту <input type="checkbox" name="email"></label>
-                </div>
-
-                <input type="submit">
+                <input class="btn" type="submit">
 
             </form>
         </div>

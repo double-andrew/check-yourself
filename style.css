@@ -80,7 +80,7 @@ main {
 }
 
 form {
-    background: rgba(255,245,215,.6);
+    background: rgba(255,245,215,.7);
     width: 500px;
     padding: 20px;
     max-width: 900px;
@@ -90,7 +90,8 @@ form {
 form input[type=email], form input[type=number], form input[type=text], form select, form textarea {
     display: block;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
     outline: 0;
     width: 95%;
     border: 1px solid #000;
@@ -101,6 +102,40 @@ form input[type=email], form input[type=number], form input[type=text], form sel
     min-height: 41px
 }
 
+.btn, input[type=submit] {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #000;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block
+}
+
+.btn[disabled], input[type=submit][disabled] {
+    opacity: 0.8;
+    cursor: default
+}
+
+.btn:hover, input[type=submit]:hover {
+    background: #000;
+    color: #fff
+}
+
+label{
+
+    color: #000;
+    font-weight: bold;
+}
+
+.radio-group {
+
+    padding: 10px;
+}
 
 table {
     border-collapse: collapse;
@@ -122,5 +157,3 @@ footer {
     justify-items: center;
     padding: 1rem;
 }
-
-/*# sourceMappingURL=style.css.map */
