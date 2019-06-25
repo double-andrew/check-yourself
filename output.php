@@ -51,45 +51,81 @@
 в упоре лежа (отжимание)</td>
                 <td>4 раз(-а)</td>
                 <td>-0.7778</td>
-                <td>Неуд</td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td>0</td>
             </tr>
             <tr>
                 <td>Прыжок в длину с места</td>
                 <td>90 см</td>
                 <td>-0.3333</td>
-                <td>Уд</td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td>0</td>
             </tr>
             <tr>
                 <td>Поднимание туловища из положения лежа на спине</td>
                 <td>12 раз(-а)</td>
                 <td>-0.3333</td>
-                <td>Уд</td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td>0</td>
             </tr>
             <tr>
                 <td>Удержание тела в висе на перекладине</td>
                 <td>30 сек</td>
                 <td>0.4286</td>
-                <td>Хор</td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td>0</td>
             </tr>
             <tr>
                 <td>Наклон вперед из положения сидя</td>
                 <td>3 см</td>
                 <td>-0.1803</td>
-                <td>Уд</td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td>0</td>
             </tr>
             <tr>
                 <td>Бег 1000м</td>
                 <td>385 сек</td>
                 <td>-0.0490</td>
-                <td>Уд</td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td class="nobg"></td>
+                <td>0</td>
             </tr>
             <tr class="title">
-                <th colspan="4">Итоговый результат и рекоммендации</th>
+                <th colspan="10">Итоговый результат и рекоммендации</th>
             </tr>
             <tr>
-                <td>Ваш биологический возраст</td>
-                <td>4.17</td>
-                <td colspan="2" rowspan="4">
+                <td colspan="2">Ваш биологический возраст</td>
+                <td colspan="2">4.17</td>
+                <td colspan="6" rowspan="4">
 
                   Обратить внимание на свое здоровье.
                   Необходимо пройти тщательное медицинское обследование всех органов и систем.
@@ -97,16 +133,16 @@
                 </td>
             </tr>
             <tr>
-                <td>Разница между календарным и биологическим возрастом(±)</td>
-                <td>3.83</td>
+                <td colspan="2">Разница между календарным и биологическим возрастом(±)</td>
+                <td colspan="2">3.83</td>
             </tr>
             <tr>
-                <td>ОУФК*</td>
-                <td>-0.2038</td>
+                <td colspan="2">ОУФК*</td>
+                <td colspan="2">-0.2038</td>
             </tr>
             <tr>
-                <td>Бег 1000м</td>
-                <td>Уд</td>
+                <td colspan="2">Бег 1000м</td>
+                <td colspan="2">Уд</td>
             </tr>
         </table>
 
