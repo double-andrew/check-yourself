@@ -137,16 +137,32 @@ label{
     padding: 10px;
 }
 
+table, th, td {
+  border: 1px solid #303030;
+
+  font-size: 1vw;
+}
+
 table {
-    border-collapse: collapse;
+    background-color: white;
+  table-layout: fixed;
+  width: 1000px;
+  border-collapse: collapse;
+  margin: auto;
 }
 
 table th, table td {
-    padding: 0.8rem 1rem;
+  padding: 0.8rem 1rem;
+  word-wrap: break-word;
 }
 
-table tr:nth-child(2n) {
-    background-color: #d6d6d6;
+table tr:nth-child(2n + 1) {
+  background-color: #d6d6d6;
+}
+
+table tr.title{
+  background-color: #303030;
+  color: #ececec;
 }
 
 footer {
@@ -159,7 +175,6 @@ footer {
 }
 
 .red {
-
     color: red;
     font-size: x-large;
     font-weight: normal;
