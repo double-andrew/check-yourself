@@ -23,16 +23,52 @@
         <div class="center">
             <form class="form" action="">
 
-                <h2>Крутая форма</h2>
+                <h2>Заполните форму</h2>
 
                 <div class="input-field">
                     <label for="">input1</label>
-                    <input type="text" name="input1">
+                    <input type="text" name="input1" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">input1</label>
-                    <input type="text" name="input2">
+                    <input type="text" name="input2" required>
+                </div>
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input1" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input2" required>
+                </div>
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input1" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input2" required>
+                </div>
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input1" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input2" required>
+                </div>
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input1" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">input1</label>
+                    <input type="text" name="input2" required>
                 </div>
 
                 <div class="input-field">
@@ -55,7 +91,7 @@
     </main>
 
     <footer>
-        <span>Выполнил: Глеб Калачев, 181-321</span>
+        <span>Выполнил: Глеб Калачев, Гончаров Андрей, Вишняков Андрей 181-321</span>
     </footer>
 </div>
 
