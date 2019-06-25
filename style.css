@@ -91,6 +91,7 @@ table {
   width: 1000px;
   border-collapse: collapse;
   margin: auto;
+  background-color: white;
 }
 
 table th, table td {
@@ -100,6 +101,18 @@ table th, table td {
 
 table tr:nth-child(2n + 1) {
   background-color: #d6d6d6;
+}
+
+table tr td.nobg {
+  background-color: white;
+  border-left: none;
+  border-right: none;
+}
+
+table tr td.redbg {
+  background-color: tomato;
+  border-left: none;
+  border-right: none;
 }
 
 table tr.title{
