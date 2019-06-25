@@ -1,105 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+* {
+    margin: 0;
+
+    font-family: 'Comfortaa', Consolas, Arial;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  background-color: #f2f2f2;
-  color: #303030;
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #303030;
 }
 body a {
-  color: #4c4c4c;
+    color: #4c4c4c;
 }
 
 input {
-  font-size: 16px;
-  padding: 4px;
-  font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 4px;
+    font-family: Arial, sans-serif;
 }
 
 label {
-  user-select: none;
+    user-select: none;
 }
 
 footer, header {
-  background-color: #303030;
-  color: #ececec;
+    background-color: #f0f0f0;
+    color: #000;
 }
 footer a, header a {
-  color: #00a9ff;
+    color: #00a9ff;
 }
 
 main {
-  background-color: #f2f2f2;
-  color: #303030;
+    color: #303030;
 }
 main a {
-  color: #4c4c4c;
+    color: #4c4c4c;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .center {
-  display: grid;
-  justify-items: center;
-  align-items: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .page-layout {
-  display: grid;
-  grid-template: "h h h" auto ". c ." auto/1fr minmax(320px, 1100px) 1fr;
+    display: grid;
+    grid-template: "h h h" auto ". c ." auto/1fr minmax(320px, 1100px) 1fr;
 }
 
 header {
-  grid-area: h;
-  display: flex;
-  align-items: center;
-  padding: 1rem;
+    grid-area: h;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
 }
 header h1 {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .logo .logo-image {
-  max-height: 80px;
+    max-height: 80px;
 }
 
 main {
-  grid-area: c;
-  padding: 2rem;
+    grid-area: c;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+form {
+    background: rgba(255,245,215,.6);
+    width: 500px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
-.form .input-field {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 1rem;
+form input[type=email], form input[type=number], form input[type=text], form select, form textarea {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    width: 95%;
+    border: 1px solid #000;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    resize: vertical;
+    max-height: 82px;
+    min-height: 41px
 }
+
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 table th, table td {
-  padding: 0.8rem 1rem;
+    padding: 0.8rem 1rem;
 }
 
 table tr:nth-child(2n) {
-  background-color: #d6d6d6;
+    background-color: #d6d6d6;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  display: grid;
-  justify-items: center;
-  padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
