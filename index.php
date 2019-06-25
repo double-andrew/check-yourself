@@ -8,10 +8,12 @@
     <title>Заполните форму</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Content/font-awesome.css">
     <script src="jquery.min.js"></script>
 
 </head>
 <body>
+
 
 <?php
 
@@ -22,9 +24,16 @@ include 'logic.php';
 ?>
 
 <div class="page-layout">
+
     <header>
-        <a href="" class="logo"><img class="logo-image" src="./assets/logo.png" alt="Этафета мира"></a>
-        <h1>Заполните форму</h1>
+        <a href="" class="logo"><img class="logo" src="./assets/logo.png" alt="Этафета мира"></a>
+        <ul class="main-menu">
+            <li><a href="#"><b>Главная</b></a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Медиа</a></li>
+            <li><a href="#">Поддержка</a></li>
+            <li><a href="#">Форум</a></li>
+        </ul>
     </header>
 
     <main>
@@ -40,6 +49,12 @@ include 'logic.php';
 <!---->
 <!--                <div class="input-field">-->
 <!--                    <label for="">Регион</label>-->
+<!--                </div>-->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Город</label>-->
+<!--                    <input type="text" name="city" required>-->
+<!--                </div>-->
+
 <!--                    <input type="text" name="region">-->
 <!--                </div>-->
 <!--                <div class="input-field">-->
@@ -101,11 +116,24 @@ include 'logic.php';
     </main>
 
     <footer>
-
-        <span>Выполнил: Калачев Глеб, Гончаров Андрей и Вишняков Андрец, 181-321</span>
-
+        <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <nav>
+            <ul class="footer-menu">
+                <li><a href="index.html"><b>Главная</b></a></li>
+                <li><a href="diplom-info.html">Новости</a></li>
+                <li><a href="enrolment-dates.html">Медиа</a></li>
+                <li><a href="exams.html">Поддержка</a></li>
+                <li><a href="contacts.html">Форум</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            <p>&copy; Выполнил: Глеб Калачев, Гончаров Андрей, Вишняков Андрей 181-321</p>
+        </div>
     </footer>
-</div>
 
 </body>
 </html>
