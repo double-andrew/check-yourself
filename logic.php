@@ -181,15 +181,15 @@ function ratingInteger($rate) {
 
 echo '<pre>';
 
-echo "ratingFoldRate = " . $handfoldRate . "\n";
-echo "ratingFoldRate = " . $longJumpRate . "\n";
-echo "ratingFoldRate = " . $raiseWaistRate . "\n";
-echo "ratingFoldRate = " . $keepBodyRate . "\n";
-echo "ratingFoldRate = " . $bendRate . "\n";
-echo "ratingFoldRate = " . $runRate . "\n\n";
-echo "bioage = " . $oufk . "\n";
+//echo "ratingFoldRate = " . $handfoldRate . "\n";
+//echo "ratingFoldRate = " . $longJumpRate . "\n";
+//echo "ratingFoldRate = " . $raiseWaistRate . "\n";
+//echo "ratingFoldRate = " . $keepBodyRate . "\n";
+//echo "ratingFoldRate = " . $bendRate . "\n";
+//echo "ratingFoldRate = " . $runRate . "\n\n";
+//echo "bioAge = " . $oufk . "\n";
 
-
+echo '</pre>';
 
 
 
