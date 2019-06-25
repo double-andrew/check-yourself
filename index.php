@@ -8,15 +8,20 @@
     <title>Заполните форму</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Content/font-awesome.css">
     <script src="jquery.min.js"></script>
 
 </head>
 <body>
-
-<div class="page-layout">
     <header>
-        <a href="" class="logo"><img class="logo-image" src="./assets/logo.png" alt="Этафета мира"></a>
-        <h1>Заполните форму</h1>
+        <a href="" class="logo"><img class="logo" src="./assets/logo.png" alt="Этафета мира"></a>
+        <ul class="main-menu">
+            <li><a href="#"><b>Главная</b></a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Медиа</a></li>
+            <li><a href="#">Поддержка</a></li>
+            <li><a href="#">Форум</a></li>
+        </ul>
     </header>
 
     <main>
@@ -25,19 +30,20 @@
 
                 <h2>Заполните форму</h2>
 
-                <div class="input-field">
-                    <label for="">Страна</label>
-                    <input type="text" name="country" required>
-                </div>
+<!--                <div class="input-field">-->
+<!--                    <label for="">Страна</label>-->
+<!--                    <input type="text" name="country" required>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Регион</label>-->
+<!--                    <input type="text" name="region" required>-->
+<!--                </div>-->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Город</label>-->
+<!--                    <input type="text" name="city" required>-->
+<!--                </div>-->
 
-                <div class="input-field">
-                    <label for="">Регион</label>
-                    <input type="text" name="region" required>
-                </div>
-                <div class="input-field">
-                    <label for="">Город</label>
-                    <input type="text" name="city" required>
-                </div>
 
                 <div class="input-field">
                     <label for="">Фамилия <span class="red">*</span> </label>
@@ -57,7 +63,7 @@
 
                     <label for="">Пол (М/Ж) <span class="red">*</span></label>
                     <div class="radio-group">
-                    <label for="chb1">М<input id="chb1" type="radio" value="male" name="male"></label>
+                    <label for="chb1">М<input id="chb1" type="radio" value="male" name="male" checked></label>
                     <label for="chb2">Ж<input id="chb2" type="radio" value="female" name="male"></label>
                     </div>
                 </div>
@@ -93,9 +99,24 @@
     </main>
 
     <footer>
-        <span>Выполнил: Глеб Калачев, Гончаров Андрей, Вишняков Андрей 181-321</span>
+        <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <nav>
+            <ul class="footer-menu">
+                <li><a href="index.html"><b>Главная</b></a></li>
+                <li><a href="diplom-info.html">Новости</a></li>
+                <li><a href="enrolment-dates.html">Медиа</a></li>
+                <li><a href="exams.html">Поддержка</a></li>
+                <li><a href="contacts.html">Форум</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            <p>&copy; Выполнил: Глеб Калачев, Гончаров Андрей, Вишняков Андрей 181-321</p>
+        </div>
     </footer>
-</div>
 
 </body>
 </html>
