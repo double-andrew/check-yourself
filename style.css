@@ -83,21 +83,26 @@ main {
 
 table, th, td {
   border: 1px solid #303030;
+  font-size: 1vw;
 }
 
 table {
+  table-layout: fixed;
+  width: 1000px;
   border-collapse: collapse;
+  margin: auto;
 }
 
 table th, table td {
   padding: 0.8rem 1rem;
+  word-wrap: break-word;
 }
 
 table tr:nth-child(2n + 1) {
   background-color: #d6d6d6;
 }
 
-table tr:first-child{
+table tr.title{
   background-color: #303030;
   color: #ececec;
 }
