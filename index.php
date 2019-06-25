@@ -38,29 +38,9 @@ include 'logic.php';
 
     <main>
         <div class="center">
-            <form class="form" action="" method="post">
+            <form class="form" action="output.php" method="post">
 
                 <h2>Заполните форму</h2>
-
-<!--                <div class="input-field">-->
-<!--                    <label for="">Страна</label>-->
-<!--                    <input type="text" name="country">-->
-<!--                </div>-->
-<!---->
-<!--                <div class="input-field">-->
-<!--                    <label for="">Регион</label>-->
-<!--                </div>-->
-<!--                <div class="input-field">-->
-<!--                    <label for="">Город</label>-->
-<!--                    <input type="text" name="city" required>-->
-<!--                </div>-->
-
-<!--                    <input type="text" name="region">-->
-<!--                </div>-->
-<!--                <div class="input-field">-->
-<!--                    <label for="">Город</label>-->
-<!--                    <input type="text" name="city">-->
-<!--                </div>-->
 
                 <div class="input-field">
                     <label for="">Фамилия <span class="red">*</span> </label>

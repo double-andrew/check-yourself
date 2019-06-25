@@ -13,6 +13,20 @@
 </head>
 <body>
 
+<?php
+
+include 'logic.php';
+
+echo "ratingFoldRate = " . $handfoldRate . "\n";
+echo "ratingFoldRate = " . $longJumpRate . "\n";
+echo "ratingFoldRate = " . $raiseWaistRate . "\n";
+echo "ratingFoldRate = " . $keepBodyRate . "\n";
+echo "ratingFoldRate = " . $bendRate . "\n";
+echo "ratingFoldRate = " . $runRate . "\n\n";
+echo "bioAge = " . $oufk . "\n";
+
+?>
+
 <div class="page-layout">
     <header>
         <h1>Персональная карта "Взойди на свой Олимп"</h1>
@@ -25,11 +39,11 @@
           </tr>
           <tr>
               <td>ФИО</td>
-              <td colspan="9">Егоров Егор Егорович</td>
+              <td colspan="9"><?php echo $surname . ' ' . $name ?></td>
           </tr>
           <tr>
               <td>Возраст</td>
-              <td colspan="9">8 лет</td>
+              <td colspan="9"><?php echo $age ?> лет</td>
           </tr>
             <tr class="title">
                 <th rowspan="2">Тест</th>
@@ -47,76 +61,94 @@
                 <th>Супер</th>
             </tr>
             <tr>
-                <td>Сгибание и разгибание рук
-в упоре лежа (отжимание)</td>
+                <td>Сгибание и разгибание рук в упоре лежа (отжимание)</td>
                 <td>4 раз(-а)</td>
-                <td>-0.7778</td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
+                <td><?php echo $handfoldRate ?></td>
+
+                <?php
+
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <td class="nobg <?php echo ratingInteger($handfoldRate) === $i ? 'redbg' : ''?>"></td>
+                    <?php
+
+                }
+                ?>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Прыжок в длину с места</td>
                 <td>90 см</td>
-                <td>-0.3333</td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
+                <td><?php echo $longJumpRate ?></td>
+                <?php
+
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <td class="nobg <?php echo ratingInteger($longJumpRate) === $i ? 'redbg' : ''?>"></td>
+                    <?php
+
+                }
+                ?>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Поднимание туловища из положения лежа на спине</td>
                 <td>12 раз(-а)</td>
-                <td>-0.3333</td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
+                <td><?php echo $raiseWaistRate ?></td>
+                <?php
+
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <td class="nobg <?php echo ratingInteger($raiseWaistRate) === $i ? 'redbg' : ''?>"></td>
+                    <?php
+
+                }
+                ?>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Удержание тела в висе на перекладине</td>
                 <td>30 сек</td>
-                <td>0.4286</td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
+                <td><?php echo $keepBodyRate ?></td>
+                <?php
+
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <td class="nobg <?php echo ratingInteger($keepBodyRate) === $i ? 'redbg' : ''?>"></td>
+                    <?php
+
+                }
+                ?>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Наклон вперед из положения сидя</td>
                 <td>3 см</td>
-                <td>-0.1803</td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
+                <td><?php echo $bendRate ?></td>
+                <?php
+
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <td class="nobg <?php echo ratingInteger($bendRate) === $i ? 'redbg' : ''?>"></td>
+                    <?php
+
+                }
+                ?>
                 <td>0</td>
             </tr>
             <tr>
                 <td>Бег 1000м</td>
                 <td>385 сек</td>
-                <td>-0.0490</td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
-                <td class="nobg"></td>
+                <td><?php echo $runRate ?></td>
+                <?php
+
+                for ($i = 1; $i <= 6; $i++) {
+                    ?>
+                    <td class="nobg <?php echo ratingInteger($runRate) === $i ? 'redbg' : ''?>"></td>
+                    <?php
+
+                }
+                ?>
                 <td>0</td>
             </tr>
             <tr class="title">

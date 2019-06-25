@@ -165,7 +165,9 @@ $oufk = $handfoldRate + $longJumpRate + $raiseWaistRate + $keepBodyRate + $bendR
 
 
 function ratingInteger($rate) {
-    if ($rate >= 0.6) {
+    if ($rate >= 0.9) {
+        return 6;
+    } elseif ($rate >= 0.6) {
         return 5;
     } elseif ($rate >= 0.2) {
         return 4;
