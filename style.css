@@ -144,12 +144,11 @@ table, th, td {
 }
 
 table {
-    background-color: white;
+  background-color: white;
   table-layout: fixed;
   width: 1000px;
   border-collapse: collapse;
   margin: auto;
-  background-color: white;
 }
 
 table th, table td {
