@@ -92,8 +92,37 @@
                     <input type="text" name="waist" required>
                 </div>
 
-                <input class="btn" type="submit">
+                <div class="input-field">
+                    <label for="">Сгибание и разгибание рук в упоре лежа (отжимание) (кол-во раз) <span class="red">*</span></label>
+                    <input type="text" name="handfold" required>
+                </div>
 
+                <div class="input-field">
+                    <label for="">Прыжок в длину с места (см) <span class="red">*</span></label>
+                    <input type="text" name="long-jump" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Поднимание туловища из положения лежа на спине(кол-во раз) (см) <span class="red">*</span></label>
+                    <input type="text" name="raiseWaist" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Удержание тела в висе на перекладине (с) <span class="red">*</span></label>
+                    <input type="text" name="keep-body" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Наклон вперед из положения сидя (±см) <span class="red">*</span></label>
+                    <input type="text" name="bend" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Бег на 1000 метров (с) <span class="red">*</span></label>
+                    <input type="text" name="run" required>
+                </div>
+
+                <input class="btn" type="submit">
             </form>
         </div>
     </main>
