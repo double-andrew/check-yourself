@@ -134,12 +134,12 @@ if (isset($_POST['run'])) {
 
 
 //Симулируем вывод
-$handfold = 36;
-$longJump = 200;
-$raiseWaist = 43;
-$keepBody = 46;
-$bend = 13;
-$run = 450;
+//$handfold = 36;
+//$longJump = 200;
+//$raiseWaist = 43;
+//$keepBody = 46;
+//$bend = 13;
+//$run = 450;
 
 
 //симулируем данные с таблицы

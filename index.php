@@ -13,18 +13,6 @@
 
 </head>
 <body>
-
-
-<?php
-
-include 'logic.php';
-
-
-
-?>
-
-<div class="page-layout">
-
     <header>
         <a href="" class="logo"><img class="logo" src="./assets/logo.png" alt="Этафета мира"></a>
         <ul class="main-menu">
@@ -42,18 +30,33 @@ include 'logic.php';
 
                 <h2>Заполните форму</h2>
 
+<!--                <div class="input-field">-->
+<!--                    <label for="">Страна</label>-->
+<!--                    <input type="text" name="country" required>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Регион</label>-->
+<!--                    <input type="text" name="region" required>-->
+<!--                </div>-->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Город</label>-->
+<!--                    <input type="text" name="city" required>-->
+<!--                </div>-->
+
+
                 <div class="input-field">
                     <label for="">Фамилия <span class="red">*</span> </label>
-                    <input type="text" name="surname" value="калачев" required>
+                    <input type="text" name="surname" required>
                 </div>
                 <div class="input-field">
                     <label for="">Имя <span class="red">*</span></label>
-                    <input type="text" name="name" value="глеб" required>
+                    <input type="text" name="name" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Возраст <span class="red">*</span></label>
-                    <input type="text" name="age" value="18" required>
+                    <input type="text" name="age" required>
                 </div>
 
                 <div class="input-field">
@@ -67,30 +70,59 @@ include 'logic.php';
 
                 <div class="input-field">
                     <label for="">Профессия <span class="red">*</span></label>
-                    <input type="text" name="profession" value="програмист" required>
+                    <input type="text" name="profession" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Рост (см) <span class="red">*</span></label>
-                    <input type="text" name="height" value="181" required>
+                    <input type="text" name="height" required>
                 </div>
                 <div class="input-field">
                     <label for="">Вес (кг) <span class="red">*</span></label>
-                    <input type="text" name="weight" value="71" required>
+                    <input type="text" name="weight" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Окружность грудной клетки (см) <span class="red">*</span></label>
-                    <input type="text" name="chest" value="90" required>
+                    <input type="text" name="chest" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Окружность талии (см) <span class="red">*</span></label>
-                    <input type="text" name="waist" value="60" required>
+                    <input type="text" name="waist" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Сгибание и разгибание рук в упоре лежа (отжимание) (кол-во раз) <span class="red">*</span></label>
+                    <input type="text" name="handfold" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Прыжок в длину с места (см) <span class="red">*</span></label>
+                    <input type="text" name="long-jump" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Поднимание туловища из положения лежа на спине(кол-во раз) (см) <span class="red">*</span></label>
+                    <input type="text" name="raiseWaist" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Удержание тела в висе на перекладине (с) <span class="red">*</span></label>
+                    <input type="text" name="keep-body" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Наклон вперед из положения сидя (±см) <span class="red">*</span></label>
+                    <input type="text" name="bend" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Бег на 1000 метров (с) <span class="red">*</span></label>
+                    <input type="text" name="run" required>
                 </div>
 
                 <input class="btn" type="submit">
-
             </form>
         </div>
     </main>
