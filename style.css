@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: #303030;
+}
+body a {
+  color: #4c4c4c;
+}
+
+input {
+  font-size: 16px;
+  padding: 4px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  user-select: none;
+}
+
+footer, header {
+  background-color: #303030;
+  color: #ececec;
+}
+footer a, header a {
+  color: #00a9ff;
+}
+
+main {
+  background-color: #f2f2f2;
+  color: #303030;
+}
+main a {
+  color: #4c4c4c;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.page-layout {
+  display: grid;
+  grid-template: "h h h" auto ". c ." auto/1fr minmax(320px, 1100px) 1fr;
+}
+
+header {
+  grid-area: h;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+header h1 {
+  margin-left: 2rem;
+}
+
+.logo .logo-image {
+  max-height: 80px;
+}
+
+main {
+  grid-area: c;
+  padding: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 0.8rem 1rem;
+}
+
+table tr:nth-child(2n) {
+  background-color: #d6d6d6;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
