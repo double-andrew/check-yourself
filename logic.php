@@ -133,6 +133,15 @@ if (isset($_POST['run'])) {
 // Формулы
 
 
+//Симулируем вывод
+$handfold = 36;
+$longJump = 200;
+$raiseWaist = 43;
+$keepBody = 46;
+$bend = 13;
+$run = 450;
+
+
 //симулируем данные с таблицы
 $handfoldNormal = 30;
 $longJumpNormal = 185;
@@ -142,12 +151,18 @@ $bendNormal = 10.3;
 $runNormal = 278;
 
 
+
+//Вычисление рейтинга
+
 $handfoldRate = ($handfold - $handfoldNormal) / $handfoldNormal;
 $longJumpRate = ($longJump - $longJumpNormal) / $longJumpNormal;
 $raiseWaistRate = ($raiseWaist - $raiseWaistNormal) / $raiseWaistNormal;
 $keepBodyRate = ($keepBody - $keepBodyNormal) / $keepBodyNormal;
-$bendRate = ($bendRate - $bendNormal) / $bendNormal;
-$runRate = ($run - $runNormal) / $runNormal;
+$bendRate = ($bend - $bendNormal) / $bendNormal;
+$runRate = ($runNormal - $run) / $runNormal;
+
+$oufk = $handfoldRate + $longJumpRate + $raiseWaistRate + $keepBodyRate + $bendRate + $runRate;
+
 
 function ratingInteger($rate) {
     if ($rate >= 0.6) {
@@ -162,5 +177,20 @@ function ratingInteger($rate) {
         return 1;
     }
 }
+
+
+echo '<pre>';
+
+echo "ratingFoldRate = " . $handfoldRate . "\n";
+echo "ratingFoldRate = " . $longJumpRate . "\n";
+echo "ratingFoldRate = " . $raiseWaistRate . "\n";
+echo "ratingFoldRate = " . $keepBodyRate . "\n";
+echo "ratingFoldRate = " . $bendRate . "\n";
+echo "ratingFoldRate = " . $runRate . "\n\n";
+echo "bioage = " . $oufk . "\n";
+
+
+
+
 
 

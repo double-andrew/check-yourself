@@ -13,6 +13,14 @@
 </head>
 <body>
 
+<?php
+
+
+
+
+
+?>
+
 <div class="page-layout">
     <header>
         <a href="" class="logo"><img class="logo-image" src="./assets/logo.png" alt="Этафета мира"></a>
@@ -25,65 +33,65 @@
 
                 <h2>Заполните форму</h2>
 
-                <div class="input-field">
-                    <label for="">Страна</label>
-                    <input type="text" name="country" required>
-                </div>
-
-                <div class="input-field">
-                    <label for="">Регион</label>
-                    <input type="text" name="region" required>
-                </div>
-                <div class="input-field">
-                    <label for="">Город</label>
-                    <input type="text" name="city" required>
-                </div>
+<!--                <div class="input-field">-->
+<!--                    <label for="">Страна</label>-->
+<!--                    <input type="text" name="country">-->
+<!--                </div>-->
+<!---->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Регион</label>-->
+<!--                    <input type="text" name="region">-->
+<!--                </div>-->
+<!--                <div class="input-field">-->
+<!--                    <label for="">Город</label>-->
+<!--                    <input type="text" name="city">-->
+<!--                </div>-->
 
                 <div class="input-field">
                     <label for="">Фамилия <span class="red">*</span> </label>
-                    <input type="text" name="surname" required>
+                    <input type="text" name="surname" value="калачев" required>
                 </div>
                 <div class="input-field">
                     <label for="">Имя <span class="red">*</span></label>
-                    <input type="text" name="name" required>
+                    <input type="text" name="name" value="глеб" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Возраст <span class="red">*</span></label>
-                    <input type="text" name="age" required>
+                    <input type="text" name="age" value="18" required>
                 </div>
 
                 <div class="input-field">
 
                     <label for="">Пол (М/Ж) <span class="red">*</span></label>
                     <div class="radio-group">
-                    <label for="chb1">М<input id="chb1" type="radio" value="male" name="male"></label>
+                    <label for="chb1">М<input id="chb1" type="radio" value="male" name="male" checked></label>
                     <label for="chb2">Ж<input id="chb2" type="radio" value="female" name="male"></label>
                     </div>
                 </div>
 
                 <div class="input-field">
                     <label for="">Профессия <span class="red">*</span></label>
-                    <input type="text" name="profession" required>
+                    <input type="text" name="profession" value="програмист" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Рост (см) <span class="red">*</span></label>
-                    <input type="text" name="height" required>
+                    <input type="text" name="height" value="181" required>
                 </div>
                 <div class="input-field">
                     <label for="">Вес (кг) <span class="red">*</span></label>
-                    <input type="text" name="weight" required>
+                    <input type="text" name="weight" value="71" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Окружность грудной клетки (см) <span class="red">*</span></label>
-                    <input type="text" name="chest" required>
+                    <input type="text" name="chest" value="90" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Окружность талии (см) <span class="red">*</span></label>
-                    <input type="text" name="waist" required>
+                    <input type="text" name="waist" value="60" required>
                 </div>
 
                 <input class="btn" type="submit">
