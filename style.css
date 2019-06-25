@@ -81,6 +81,10 @@ main {
   margin-bottom: 1rem;
 }
 
+table, th, td {
+  border: 1px solid #303030;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -89,8 +93,13 @@ table th, table td {
   padding: 0.8rem 1rem;
 }
 
-table tr:nth-child(2n) {
+table tr:nth-child(2n + 1) {
   background-color: #d6d6d6;
+}
+
+table tr:first-child{
+  background-color: #303030;
+  color: #ececec;
 }
 
 footer {
