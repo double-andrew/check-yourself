@@ -13,18 +13,6 @@
 
 </head>
 <body>
-
-
-<?php
-
-include 'logic.php';
-
-
-
-?>
-
-<div class="page-layout">
-
     <header>
         <a href="" class="logo"><img class="logo" src="./assets/logo.png" alt="Этафета мира"></a>
         <ul class="main-menu">
@@ -44,36 +32,31 @@ include 'logic.php';
 
 <!--                <div class="input-field">-->
 <!--                    <label for="">Страна</label>-->
-<!--                    <input type="text" name="country">-->
+<!--                    <input type="text" name="country" required>-->
 <!--                </div>-->
 <!---->
 <!--                <div class="input-field">-->
 <!--                    <label for="">Регион</label>-->
+<!--                    <input type="text" name="region" required>-->
 <!--                </div>-->
 <!--                <div class="input-field">-->
 <!--                    <label for="">Город</label>-->
 <!--                    <input type="text" name="city" required>-->
 <!--                </div>-->
 
-<!--                    <input type="text" name="region">-->
-<!--                </div>-->
-<!--                <div class="input-field">-->
-<!--                    <label for="">Город</label>-->
-<!--                    <input type="text" name="city">-->
-<!--                </div>-->
 
                 <div class="input-field">
                     <label for="">Фамилия <span class="red">*</span> </label>
-                    <input type="text" name="surname" value="калачев" required>
+                    <input type="text" name="surname" required>
                 </div>
                 <div class="input-field">
                     <label for="">Имя <span class="red">*</span></label>
-                    <input type="text" name="name" value="глеб" required>
+                    <input type="text" name="name" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Возраст <span class="red">*</span></label>
-                    <input type="text" name="age" value="18" required>
+                    <input type="text" name="age" required>
                 </div>
 
                 <div class="input-field">
@@ -87,26 +70,26 @@ include 'logic.php';
 
                 <div class="input-field">
                     <label for="">Профессия <span class="red">*</span></label>
-                    <input type="text" name="profession" value="програмист" required>
+                    <input type="text" name="profession" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Рост (см) <span class="red">*</span></label>
-                    <input type="text" name="height" value="181" required>
+                    <input type="text" name="height" required>
                 </div>
                 <div class="input-field">
                     <label for="">Вес (кг) <span class="red">*</span></label>
-                    <input type="text" name="weight" value="71" required>
+                    <input type="text" name="weight" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Окружность грудной клетки (см) <span class="red">*</span></label>
-                    <input type="text" name="chest" value="90" required>
+                    <input type="text" name="chest" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Окружность талии (см) <span class="red">*</span></label>
-                    <input type="text" name="waist" value="60" required>
+                    <input type="text" name="waist" required>
                 </div>
 
                 <input class="btn" type="submit">
