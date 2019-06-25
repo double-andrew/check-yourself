@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Экзамен PHP</title>
+    <title>Заполните форму</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="jquery.min.js"></script>
@@ -15,47 +15,85 @@
 
 <div class="page-layout">
     <header>
-        <a href="" class="logo"><img class="logo-image" src="./assets/logo-polytech.png" alt="Московский Политех"></a>
-        <h1>Финальный экзамен</h1>
+        <a href="" class="logo"><img class="logo-image" src="./assets/logo.png" alt="Этафета мира"></a>
+        <h1>Заполните форму</h1>
     </header>
 
     <main>
         <div class="center">
-            <form class="form" action="">
+            <form class="form" action="" method="post">
 
-                <h2>Крутая форма</h2>
+                <h2>Заполните форму</h2>
 
                 <div class="input-field">
-                    <label for="">input1</label>
-                    <input type="text" name="input1">
+                    <label for="">Страна</label>
+                    <input type="text" name="country" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">input1</label>
-                    <input type="text" name="input2">
+                    <label for="">Регион</label>
+                    <input type="text" name="region" required>
+                </div>
+                <div class="input-field">
+                    <label for="">Город</label>
+                    <input type="text" name="city" required>
                 </div>
 
                 <div class="input-field">
-                    <div>Выбирите радио:</div>
-                    <label for="chb1">чекбокс1<input id="chb1" type="radio" value="1" name="radio" checked></label>
-                    <label for="chb2">чекбокс2<input id="chb2" type="radio" value="2" name="radio"></label>
-                    <label for="chb3">чекбокс3<input id="chb3" type="radio" value="3" name="radio"></label>
+                    <label for="">Фамилия <span class="red">*</span> </label>
+                    <input type="text" name="surname" required>
+                </div>
+                <div class="input-field">
+                    <label for="">Имя <span class="red">*</span></label>
+                    <input type="text" name="name" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="send-to-email">Отправить на почту <input type="checkbox" name="email"></label>
+                    <label for="">Возраст <span class="red">*</span></label>
+                    <input type="text" name="age" required>
                 </div>
 
-                <input type="submit">
+                <div class="input-field">
+
+                    <label for="">Пол (М/Ж) <span class="red">*</span></label>
+                    <div class="radio-group">
+                    <label for="chb1">М<input id="chb1" type="radio" value="male" name="male"></label>
+                    <label for="chb2">Ж<input id="chb2" type="radio" value="female" name="male"></label>
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Профессия <span class="red">*</span></label>
+                    <input type="text" name="profession" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Рост (см) <span class="red">*</span></label>
+                    <input type="text" name="height" required>
+                </div>
+                <div class="input-field">
+                    <label for="">Вес (кг) <span class="red">*</span></label>
+                    <input type="text" name="weight" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Окружность грудной клетки (см) <span class="red">*</span></label>
+                    <input type="text" name="chest" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Окружность талии (см) <span class="red">*</span></label>
+                    <input type="text" name="waist" required>
+                </div>
+
+                <input class="btn" type="submit">
 
             </form>
         </div>
-
-        <a href="./output.php">К output'у (для дебага)</a>
     </main>
 
     <footer>
-        <span>Выполнил: Глеб Калачев, 181-321</span>
+        <span>Выполнил: Глеб Калачев, Гончаров Андрей, Вишняков Андрей 181-321</span>
     </footer>
 </div>
 
