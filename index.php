@@ -21,77 +21,75 @@
 
     <main>
         <div class="center">
-            <form class="form" action="">
+            <form class="form" action="" method="post">
 
                 <h2>Заполните форму</h2>
 
                 <div class="input-field">
                     <label for="">Страна</label>
-                    <input type="text" name="input1" required>
+                    <input type="text" name="country" required>
                 </div>
 
                 <div class="input-field">
                     <label for="">Регион</label>
-                    <input type="text" name="input2" required>
+                    <input type="text" name="region" required>
                 </div>
                 <div class="input-field">
                     <label for="">Город</label>
-                    <input type="text" name="input1" required>
+                    <input type="text" name="city" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">Фамилия</label>
-                    <input type="text" name="input2" required>
+                    <label for="">Фамилия <span class="red">*</span> </label>
+                    <input type="text" name="surname" required>
                 </div>
                 <div class="input-field">
-                    <label for="">Имя</label>
-                    <input type="text" name="input1" required>
-                </div>
-
-                <div class="input-field">
-                    <label for="">Возраст</label>
-                    <input type="text" name="input2" required>
+                    <label for="">Имя <span class="red">*</span></label>
+                    <input type="text" name="name" required>
                 </div>
 
                 <div class="input-field">
+                    <label for="">Возраст <span class="red">*</span></label>
+                    <input type="text" name="age" required>
+                </div>
 
-                    <label for="">Пол (М/Ж)</label>
+                <div class="input-field">
+
+                    <label for="">Пол (М/Ж) <span class="red">*</span></label>
                     <div class="radio-group">
-                    <label for="chb1">М<input id="chb1" type="radio" value="1" name="radio"></label>
-                    <label for="chb2">Ж<input id="chb2" type="radio" value="2" name="radio"></label>
+                    <label for="chb1">М<input id="chb1" type="radio" value="male" name="male"></label>
+                    <label for="chb2">Ж<input id="chb2" type="radio" value="female" name="male"></label>
                     </div>
                 </div>
 
                 <div class="input-field">
-                    <label for="">Профессия</label>
-                    <input type="text" name="input1" required>
+                    <label for="">Профессия <span class="red">*</span></label>
+                    <input type="text" name="profession" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">Рост (см)</label>
-                    <input type="text" name="input2" required>
+                    <label for="">Рост (см) <span class="red">*</span></label>
+                    <input type="text" name="height" required>
                 </div>
                 <div class="input-field">
-                    <label for="">Вес (кг)</label>
-                    <input type="text" name="input1" required>
-                </div>
-
-                <div class="input-field">
-                    <label for="">Окружность грудной клетки (см)</label>
-                    <input type="text" name="input2" required>
+                    <label for="">Вес (кг) <span class="red">*</span></label>
+                    <input type="text" name="weight" required>
                 </div>
 
                 <div class="input-field">
-                    <label for="">Окружность талии (см)</label>
-                    <input type="text" name="input2" required>
+                    <label for="">Окружность грудной клетки (см) <span class="red">*</span></label>
+                    <input type="text" name="chest" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="">Окружность талии (см) <span class="red">*</span></label>
+                    <input type="text" name="waist" required>
                 </div>
 
                 <input class="btn" type="submit">
 
             </form>
         </div>
-
-        <a href="./output.php">К output'у (для дебага)</a>
     </main>
 
     <footer>
